@@ -1,0 +1,213 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#                                        ----[ClansLite]----                                        #
+#                                     ----[By Loving11ish]----                                      #
+#                                  ----[Contributors Gamlin]----                                   #
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#                                  ----[Plugin Messages File]----                                   #
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#ClansLite messages config for 1.3.5
+
+#Clan Creation Messagesclan-name-too-short "&3Название слишком короткое,минимальная длинна &6%CHARMIN% &3знаков."
+clan-name-too-long: "&3Название слишком длинное,максимальная длинна &6%CHARMAX% &3знаков."
+clan-created-successfully: "&3Клан &6%CLAN% &3создан!"
+clan-name-already-taken: "&3Извините,но &6%CLAN% &3уже занят.\n&3Выберите другое название!"
+clan-name-is-banned: "&3Извините,но &6%CLAN% &3это a &cЗАБЛОКИРОВАННОЕ &3название!\n&3Выберите другое название!"
+clan-creation-failed: "&3Клан &6%CLAN% &3не был создан, пожалуйста, убедитесь, что вы еще не состоите в клане!"
+clan-name-too-short: "&aClan name too short - minimum length is &3%CHARMIN% &acharacters."
+clan-created-broadcast-chat: "&3%CLANOWNER%&a Created a new clan!\n&aThe new clan is called &3%CLAN%&a!"
+clan-created-broadcast-title-1: "&3%CLANOWNER%&a Created a new clan!"
+clan-created-broadcast-title-2: "&aThe new clan is called &3%CLAN%&a!"
+
+#Clan Disbanded Messages
+clan-successfully-disbanded: "&3Клан был распущен!"
+clan-disband-failure: "&3Не удалось распустить клан - Пожалуйста, убедитесь, что вы являетесь владельцем!"
+clan-admin-disband-failure: "&aFailed to disband clan - make sure that the provided player is a clan owner!"
+incorrect-disband-command-usage: "&aUnrecognised argument please use &3/clanadmin disband <clan-owner>&a."
+
+#Clan Invite Messages
+clan-invite-no-valid-player: "&aPlease specify a player to invite!"
+clan-invite-not-clan-owner: "&aYou must be a clan owner to invite people!"
+clan-invite-self-error: "&aYou can't invite yourself!"
+clan-invitee-not-found: "&aPlayer &3%INVITED% &awas not found, make sure they are online!"
+clan-invite-invited-already-in-clan: "&aPlayer &3%INVITED% &ais already in a clan!"
+clan-invite-max-size-reached: "&aYou have reached the clam members size limit &a%LIMIT%&a!"
+clan-invite-successful: "&aYou have invited &3%INVITED% &ato your clan!"
+clan-invite-failed: "&aFailed to send invite to &3%INVITED%&a, this player might already have an invitation!"
+clan-invited-player-invite-pending: "&aYou have been invited to a clan by &3%CLANOWNER% &a- use /clan join"
+clan-invite-request: "&3%PLAYER% &awould like you to invite them to your clan.\n&aUse &3/clan invite %PLAYER% &ato send the invite."
+clan-invite-request-failed: "&aFailed to send request, check that the clan owner is online!"
+clan-invite-sent-successfully: "&aYou have successfully sent a request to %CLANOWNER%"
+
+#Clan Join Messages
+clan-join-successful: "&aSuccessfully joined &3%CLAN%&a!"
+clan-join-failed: "&aFailed to join &3%CLAN%&a"
+clan-join-failed-no-valid-clan: "&aFailed to join a clan - no clan was found!"
+clan-join-failed-no-invite: "&aFailed to join a clan - no invite was found!"
+clan-join-broadcast-chat: "&3%PLAYER%&a Has joined a clan!\n&aThe player's joined clan is &3%CLAN%&a!"
+clan-join-broadcast-title-1: "&3%PLAYER%&a Has joined a clan!"
+clan-join-broadcast-title-2: "&aThe player's joined clan is &3%CLAN%&a!"
+
+#Clan Leave Messages
+failed-clan-owner: "&aYou are the owner of a clan, use &3/clan disband&a."
+clan-leave-successful: "&aYou have left &3%CLAN%."
+clan-leave-failed: "&aFailed to leave clan, please try again later."
+
+#Clan Kick Messages
+clan-member-kick-successful: "&aPlayer &3%KICKEDPLAYER%&a was kicked from your clan."
+clan-kicked-player-message: "&aYou were kicked from &3%CLAN%&a!"
+targeted-player-is-not-in-your-clan: "&aPlayer &3%KICKEDPLAYER%&a is not in your clan."
+could-not-find-specified-player: "&aCould not find player &3%KICKEDPLAYER%&a. They may be have not joined before."
+must-be-owner-to-kick: "&aYou are not an owner of a clan!"
+incorrect-kick-command-usage: "&aUnrecognised argument please use &3/clan kick <member>&a."
+failed-cannot-kick-yourself: "&aYou cannot kick yourself, use &3/clan leave&a."
+
+#Clan Prefix Messages
+clan-prefix-change-successful: "&aSuccessfully changed clan prefix to &3%CLANPREFIX%&a!"
+clan-prefix-too-long: "&aClan prefix too long - maximum length is &3%CHARMAX% &acharacters."
+clan-prefix-too-short: "&aClan prefix too short - minimum length is &3%CHARMIN% &acharacters."
+clan-invalid-prefix: "&aPlease provide a new prefix. Use &b/clan prefix <prefix>&a!"
+clan-prefix-already-taken: "&aSorry but &3%CLANPREFIX% &ais already taken.\n&aPlease choose another!"
+clan-prefix-is-banned: "&aSorry but &3%CLANPREFIX% &ais a &bBANNED &aname!\n&aPlease choose another!"
+must-be-owner-to-change-prefix: "&aYou are not an owner of a clan!"
+
+#Clan List Messages
+no-clans-to-list: "&aNo clans found!\n&aCreate one using &b/clan create <name>&a!"
+clans-list-header: "&a----- &3ClansList &a-----&r\n&a&lCurrent clans:&r\n"
+clans-list-footer: "\n&a-----"
+
+#Clan Info Messages
+clan-info-header: "&a----- &3ClanInfo &a-----&r\n&aName: %CLAN%&r\n&aPrefix: &a(%CLANPREFIX%&r&a)&r"
+clan-info-owner-online: "\n\n&aOwner: &a%OWNER%"
+clan-info-owner-offline: "\n\n&aOwner: &b%OWNER%&a&o(offline)"
+clan-info-members-header: "\n\n&aMembers: &a&o(%NUMBER%)"
+clan-info-members-online: "\n&a%MEMBER%\n"
+clan-info-members-offline: "\n&b%MEMBER%&a&o(offline)\n"
+clan-info-allies-header: "\n\n&aAllied Clans:"
+clan-ally-members: "\n&a%ALLYCLAN%\n"
+clan-info-enemies-header: "\n\n&aEnemy Clans:"
+clan-enemy-members: "\n&b%ENEMYCLAN%\n"
+clan-pvp-status-enabled: "\n\n&aFriendly Fire: &a&oENABLED"
+clan-pvp-status-disabled: "\n\n&aFriendly Fire: &b&oDISABLED"
+clan-home-set-true: "\n\n&aHome Set: &a&oTRUE"
+clan-home-set-false: "\n\n&aHome Set: &b&oFALSE"
+clan-info-footer: "\n&a-----"
+not-in-clan: "&aYou are not in a clan!"
+
+#Clan Ally Messages
+added-clan-to-your-allies: "&aYou successfully added &3%ALLYCLAN% &ato your allies!"
+clan-added-to-other-allies: "&3%CLANOWNER% &ahas added your clan to their allies!"
+failed-to-add-clan-to-allies: "&aUnable to add &3%ALLYOWNER%&a! Make sure the owner is online!"
+failed-clan-already-your-ally: "&aThis clan is already your ally!"
+failed-player-not-clan-owner: "&3%ALLYOWNER%&a is not a clan owner!"
+removed-clan-from-your-allies: "&aYou Successfully removed &3%ALLYCLAN% &afrom your allies!"
+clan-removed-from-other-allies: "&aThe clan owner &3%CLANOWNER% &ahas removed your clan from their allies!"
+failed-to-remove-clan-from-allies: "&aUnable to remove &3%ALLYOWNER%&a! Make sure they're you ally"
+ally-clan-add-owner-offline: "&aUnable to add &3%ALLYOWNER%&a! Make sure the owner is online!"
+ally-clan-remove-owner-offline: "&aUnable to remove &3%ALLYOWNER%&a! Make sure the owner is online!"
+incorrect-clan-ally-command-usage: "&aUnrecognised argument please use &3/clan ally [add|remove] <clan-owner>&a."
+failed-cannot-ally-your-own-clan: "&aYou cannot be an ally with your &a&lOWN&r&a clan!"
+clan-ally-max-amount-reached: "&aYou have reached the clan allies amount limit &a%LIMIT%&a!"
+failed-cannot-ally-enemy-clan: "&aYou cannot be an ally with an &b&lENEMY&r &aclan!"
+
+#Clan Enemy Messages
+added-clan-to-your-enemies: "&aYou successfully added &3%ENEMYCLAN% &ato your enemies!"
+clan-added-to-other-enemies: "&3%CLANOWNER% &ahas added your clan to their enemies!"
+failed-to-add-clan-to-enemies: "&aUnable to add &3%ENEMYOWNER%&a! Make sure the owner is online!"
+failed-clan-already-your-enemy: "&aThis clan is already your enemy!"
+failed-enemy-player-not-clan-owner: "&3%ENEMYOWNER%&a is not a clan owner!"
+removed-clan-from-your-enemies: "&aYou Successfully removed &3%ENEMYCLAN% &afrom your enemies!"
+clan-removed-from-other-enemies: "&aThe clan owner &3%CLANOWNER% &ahas removed your clan from their enemies!"
+failed-to-remove-clan-from-enemies: "&aUnable to remove &3%ENEMYOWNER%&a! Make sure they're your enemy!"
+enemy-clan-add-owner-offline: "&aUnable to add &3%ENEMYOWNER%&a! Make sure the owner is online!"
+enemy-clan-remove-owner-offline: "&aUnable to remove &3%ENEMYOWNER%&a! Make sure the owner is online!"
+incorrect-clan-enemy-command-usage: "&aUnrecognised argument please use &3/clan enemy [add|remove] <clan-owner>&a."
+failed-cannot-enemy-your-own-clan: "&aYou cannot be an enemy with your &a&lOWN&r&a clan!"
+clan-enemy-max-amount-reached: "&aYou have reached the clan enemies amount limit &a%LIMIT%&a!"
+failed-cannot-enemy-allied-clan: "&aYou cannot be an enemy with an &a&lALLIED&r &aclan!"
+added-enemy-clan-to-your-enemies-title-1: "&b&lYOUR CLAN IS NOW AT WAR WITH:"
+added-enemy-clan-to-your-enemies-title-2: "&3%CLANOWNER%'s &bClan!"
+removed-enemy-clan-from-your-enemies-title-1: "&a&lYOUR CLAN IS NO LONGER AT WAR WITH:"
+removed-enemy-clan-from-your-enemies-title-2: "&3%CLANOWNER%'s &aClan!"
+clan-added-to-other-enemies-title-1: "&b&lYOUR CLAN IS NOW AT WAR WITH:"
+clan-added-to-other-enemies-title-2: "&3%CLANOWNER%'s &bClan!"
+clan-removed-from-other-enemies-title-1: "&a&lYOUR CLAN IS NO LONGER AT WAR WITH:"
+clan-removed-from-other-enemies-title-2: "&3%CLANOWNER%'s &aClan!"
+
+#Clan Friendly Fire
+enabled-friendly-fire: "&aYou successfully &aenabled &afriendly fire.\n&aYour clan members can now pvp each other!"
+disabled-friendly-fire: "&aYou successfully &bdisabled &afriendly fire.\n&aYour clan members can no longer pvp each other!"
+failed-not-in-clan: "&aYou need to be in a clan first! Use &3/clan &afor details how."
+friendly-fire-is-disabled: "&aYour clan has friendly fire disabled."
+
+#Clan Homes
+successfully-set-clan-home: "&aYou &aSuccessfully &aset the clan home to your current location!"
+successfully-deleted-clan-home: "&aYou &aSuccessfully &adeleted the clan home!"
+home-cool-down-timer-wait: "&aSorry, you can't use that again for another &3%TIMELEFT%&r &aseconds."
+successfully-teleported-to-home: "&aYou teleported to your clan's home."
+failed-no-home-set: "&aYour clan does not have a home set!"
+failed-tp-not-in-clan: "&aYou need to be in a clan first! Use &3/clan &afor details how."
+
+#Clan Chat
+failed-must-be-in-clan: "&aYou need to be in a clan first! Use &3/clan &afor details how."
+chat-cool-down-timer-wait: "&aSorry, you can't use that again for another &3%TIMELEFT%&r &aseconds."
+
+#General Plugin Messages
+clan-must-be-owner: "&aYou must be the clan owner to do this."
+function-disabled: "&aSorry, that has been disabled. :("
+plugin-reload-successful: "&3ClansLite: &aThe configs have been reloaded!"
+incorrect-command-usage: "&aUnrecognised argument please use &3/clan&a."
+player-only-command: "&4Sorry, that command can only be run by a player!"
+saving-clans-start: "&3ClansLite: Saving clans data..."
+save-completed: "&3ClansLite: &aClans saved!"
+auto-save-started: "&3ClansLite: &aAuto save task has started."
+auto-save-complete: "&3ClansLite: &aSaved all Clans to file!"
+auto-save-failed: "&3ClansLite: &4Failed to save clans.yml to file!"
+auto-invite-wipe-started: "&3ClansLite: &aAuto invite wipe task has started."
+auto-invite-wipe-complete: "&3ClansLite: &aCleared all outstanding clan invites!"
+invite-wipe-failed: "&3ClansLite: &bFailed to clear all outstanding clan invites!"
+clans-save-error-1: "&3ClansLite: &4Failed to save clans.yml to file!"
+clans-save-error-2: "&3ClansLite: &4Check the console for errors!"
+clans-load-error-1: "&3ClansLite: &4Failed to load data from clans.yml!"
+clans-load-error-2: "&3ClansLite: &4See console for errors!"
+clans-update-error-1: "&3ClansLite: &4Failed to update clans.yml file!"
+clans-update-error-2: "&3ClansLite: &4Check the console for errors!"
+clan-player-not-found-1: "&3ClansLite: &4Failed to find player by name of &3%PLAYER%&4!"
+clan-player-not-found-2: "&3ClansLite: &4Ensure that &3%PLAYER% &4has joined before!"
+
+#/clan Command Responses
+clan-command-incorrect-usage:
+  line-1: "&3ClansLite usage:&a"
+  line-2: "/clan create <name>"
+  line-3: "/clan disband"
+  line-4: "/clan invite <player>"
+  line-5: "/clan join"
+  line-6: "/clan leave"
+  line-7: "/clan kick <player>"
+  line-8: "/clan info"
+  line-9: "/clan list"
+  line-10: "/clan prefix <prefix>"
+  line-11: "/clan ally [add|remove] <clan-owner>"
+  line-12: "/clan enemy [add|remove] <clan-owner>"
+  line-13: "/clan pvp"
+  line-14: "/clan [sethome|delhome|home]"
+
+#/clanadmin Command Responses
+clanadmin-command-incorrect-usage:
+  line-1: "&3ClansLite Admin usage:&a"
+  line-2: "/clanadmin save"
+  line-3: "/clanadmin reload"
+  line-4: "/clanadmin disband <clan-owner>"
+  line-5: "/clanadmin about"
+
+#Update Notification
+update-check-failure: "&3ClansLite: &4Unable to check for updates! - &b"
+update-available:
+  1: "&4*-------------------------------------------*"
+  2: "&3ClansLite: &bA new version is available!"
+  3: "&4*-------------------------------------------*"
+no-update-available:
+  1: "&a*-------------------------------------------*"
+  2: "&3ClansLite: &aPlugin is up to date!"
+  3: "&a*-------------------------------------------*"
